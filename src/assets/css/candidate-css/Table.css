@@ -1,0 +1,22 @@
+.table {
+    margin: 10px;
+  }
+  
+  .table th, .table td {
+    text-align: center; /* Center align text */
+    vertical-align: middle; /* Vertically center align text */
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+
+  .table td .action--icon{
+    margin-right: 12px;
+    height: 20px;
+    width: 20px;
+  }
+  
+
+
+  

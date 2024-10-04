@@ -1,0 +1,151 @@
+
+.offer-subtitle {
+    margin-top: 10px;
+    margin-left: 20px;
+   font-size: 25px;
+  }
+
+  .button-offer button {
+    padding: 7px 30px;
+    margin-right: 10px;
+    background-color: #cdd0d4;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    
+}
+.button-offer.btn-bottom{
+    text-align: center;
+}
+.content-offer-form{
+    background-color:  #f1f6fb;
+    padding: 10px 10px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.button-offer.btn-top{
+    text-align: end;
+}
+.text-assigned{
+    color: black;
+
+}
+/* Search.css */
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 0px 20px;
+  }
+  
+  .search-container label {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    position: relative;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 6px;
+    padding-right: 30px; /* Để chừa chỗ cho icon */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    min-width: 200px;
+    background-color: aliceblue;
+  }
+  
+  .search-container input[type="text"]::placeholder {
+    color: black;
+  }
+  
+  .search-container .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #797777;
+    pointer-events: none; 
+  }
+  
+  .search-container select {
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+    min-width: 150px;
+    color: #797777;
+  }
+  
+  .search-container button {
+    padding: 7px 30px;
+    background-color: #cdd0d4;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+/* Button.css */
+  .offer-title {
+    font-weight: bold;
+  }
+
+
+
+  .offer-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+
+
+  
+ 
+  
+  .modal-content {
+    background-color: #f1f6fb;
+    padding: 20px;
+    border-radius: 5px;
+    width:500px;
+    height: 250px;
+  }
+ 
+ .btn-modal {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+ }
+ .modal-date{
+  display: flex;
+  justify-content: space-around;
+
+ }
+ .modal-form{
+  display: flex;
+  justify-content:center;
+  margin-top: 20px;
+ }
+ .created-by{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -1rem;
+ }
+ .bottom-group{
+  margin-top: 30px;
+ }
+ .button-submit.button-form--success {
+  background-color: #ACECAB;
+}
+
+.button-submit.button-form--danger {
+  background-color: #F3A0A0;
+}
+
+.button-submit.button-form--primary {
+  background-color: #B0CDFA;
+}
+
+.button-submit.button-form--warning {
+  background-color: #FAD3B0;
+}
