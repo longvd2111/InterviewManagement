@@ -1,0 +1,56 @@
+/* SearchCandidate.css */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.search-container label {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  position: relative;
+}
+
+.search-container input[type="text"] {
+  padding: 6px;
+  padding-right: 30px;
+  /* Để chừa chỗ cho icon */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  min-width: 200px;
+  background-color: aliceblue;
+}
+
+.search-container input[type="text"]::placeholder {
+  color: black;
+}
+
+.search-container .icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #797777;
+  pointer-events: none;
+  /* Để icon không ảnh hưởng đến tương tác của người dùng */
+}
+
+.search-container select {
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: aliceblue;
+  min-width: 150px;
+  color: #797777;
+}
+
+/* .search-container button {
+    padding: 7px 30px;
+    background-color: #cdd0d4;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } */

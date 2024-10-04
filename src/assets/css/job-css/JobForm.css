@@ -1,0 +1,22 @@
+.button-job button {
+    padding: 7px 30px;
+    margin: 10px;
+    background-color: #cdd0d4;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    
+}
+.button-job{
+    text-align: center;
+}
+.content-job-form{
+    background-color: #f1f6fb ;
+    padding: 20px 10px;
+    margin-top: 40px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 10px;
+}
+.info-update p {
+    margin-bottom: -20px;
+}

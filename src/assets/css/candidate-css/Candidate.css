@@ -1,0 +1,21 @@
+.candidate-title {
+    font-weight: bold;
+  }
+  
+  .candidate-subtitle {
+    margin: 30px 0;
+  }
+
+
+  .candidate-button{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .table td .action--icon{
+    margin-right: 12px;
+    height: 20px;
+    width: 20px;
+  }
+
+ 

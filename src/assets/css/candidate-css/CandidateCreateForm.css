@@ -1,0 +1,52 @@
+/* src/assets/css/CandidateForm.css */
+.createform-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .createform-container .createform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f1f6fb;
+  }
+  
+  .createform-container .cform-group {
+    margin-bottom: 20px;
+  }
+  
+  .cform-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .createform-container .cform-group span {
+    color: red;
+  }
+  
+  .createform-container .createform h5 {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+.button-candidate {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.button-candidate .button-form{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+  
+  .content-candidate-form {
+    background-color: var(--background-color);
+    padding: 20px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 10px;
+  }
+  
+  .content-candidate-form h5{
+    font-weight: 600;
+  }

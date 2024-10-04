@@ -1,0 +1,155 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  height: 50px;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.0rem;
+  font-weight: 600;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-right ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  align-items: center;
+}
+
+.header-right-main {
+  padding: 0px;
+}
+
+.header-left {
+  display: flex;
+  padding-left: 32px;
+  align-items: center;
+}
+
+.header-right li {
+  display: flex;
+  align-items: center;
+}
+
+.user__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+.user__info-name {
+  margin: 0;
+  font-weight: 500;
+}
+
+.user__info-position {
+  margin: 0;
+  font-size: 12px;
+  color: black;
+}
+
+.user__setting {
+  position: relative;
+}
+
+.user__setting-icon {
+  color: var(--black-color);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.user__setting-icon-son {
+  width: 32px;
+  height: 32px;
+}
+
+.user__setting-dropdown {
+  display: none !important;
+  flex-direction: column;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: var(--white-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 200px;
+  margin-top: 15px !important;
+}
+
+.user__setting-dropdown::before {
+  margin-top: -25px;
+  content: "";
+  height: 20px;
+  width: 200px;
+}
+
+.user__setting:hover .user__setting-dropdown {
+  display: flex !important;
+}
+
+.dropdown__item {
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdown__item-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+  color: var(--text-color);
+}
+
+.dropdown__item-link:hover {
+  background-color: #F3F7F9;
+}
+
+.dropdown__item-icon {
+  margin-right: 10px;
+}
+
+
+
+/* CustomModal.css */
+.custom-modal .modal-dialog {
+  width: 50%;
+  /* Tùy chỉnh theo % mong muốn */
+  max-width: 400px;
+  /* Giới hạn tối đa */
+  min-width: 300px;
+  /* Giới hạn tối thiểu */
+}
+
+
+
+
+
+.custom-modal .modal-content .modal-body {
+  text-align: center;
+}
+
+.custom-modal .modal-content .modal-header .btn-close {
+  margin: 0;
+}
+
+.custom-modal .modal-content .modal-header .modal-title {
+  width: 100%;
+  text-align: center;
+}
